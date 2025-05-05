@@ -1,0 +1,32 @@
+﻿📌 Descripción general
+Este programa en Java solicita al usuario que ingrese un número del 1 al 7 y muestra el día de la semana correspondiente. Si el número no está en ese rango, se indica que el valor es inválido.
+🧩 Funcionamiento
+1. Se utiliza la clase Scanner para leer la entrada del usuario desde la consola.
+
+2. El número ingresado se evalúa con una estructura switch moderna con flechas (->).
+
+3. Dependiendo del valor, se imprime:
+
+   * 1 → "Lunes"
+
+   * 2 → "Martes"
+
+   * 3 → "Miércoles"
+
+   * 4 → "Jueves"
+
+   * 5 → "Viernes"
+
+   * 6 → "Sábado"
+
+   * 7 → "Domingo"
+
+      4. Si el valor no está entre 1 y 7, se imprime: "Numero de dia invalidio".
+
+🛠️ Dependencias
+         * java.util.Scanner — Para leer datos desde la consola.
+
+📥 Entrada esperada
+Un número entero entre 1 y 7.
+📤 Salida
+Un mensaje con el nombre del día correspondiente o un aviso de entrada inválida.
